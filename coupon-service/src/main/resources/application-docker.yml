@@ -10,6 +10,3 @@ spring:
 
 server:
   port: 8080
-
-couponservice.url: http://coupon-service:8080/api/coupons/
-

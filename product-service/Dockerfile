@@ -1,5 +1,3 @@
 FROM openjdk:8-jdk-alpine
-EXPOSE 9090
-ARG JAR_FILE=target/product-service.jar
-ADD ${JAR_FILE} app.jar
-CMD ["java", "-jar", "/app.jar"]
+ADD target/product-service.jar app.jar
+CMD ["java","-Dspring.profiles.active=docker","-jar", "/app.jar"]
