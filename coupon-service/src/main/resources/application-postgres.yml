@@ -1,0 +1,15 @@
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/coupon
+#    username: postgres
+#    password: postgres
+#    driver-class-name: org.postgresql.Driver
+#  jpa:
+#    database: POSTGRESQL
+#    hibernate:
+#      ddl-auto: create
+#
+#server:
+#  port: 8080
+#
+#
