@@ -1,5 +1,6 @@
 HELP.md
 coupon-service/target/
+product-service/target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
